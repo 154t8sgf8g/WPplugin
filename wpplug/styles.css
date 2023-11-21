@@ -1,0 +1,80 @@
+* { 
+margin: 2px;
+padding: 0; 
+font-family: 'Montserrat', sans-serif;
+}
+
+header { 
+    padding: 0;
+    text-align: center;
+} 
+
+h2 {
+    padding: 10px 0;
+}
+
+#wrapper { 
+    width: 960px; 
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+button {
+    display: inline-flex;
+    height: 48px;
+    padding: 16px 50px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: var(--color--primary, #489DFF);
+    border: 0;
+}
+
+.control__cards {
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(auto-fill, 225px);
+    width: 30%;
+    max-width: 800px; /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center; /* Размещаем карточку по центру */
+    column-gap: 60px; /* Отступ между колонками */
+    row-gap: 7px; /* Отступ между рядами */
+    margin:  auto;
+    font-size: 18px;
+}
+
+h5 {
+    color: #489DFF;
+    padding: 10px 0;
+}
+
+.bot__item .link a {
+    color: #489DFF;
+    text-decoration: none;
+}
+
+.bot__list .items { 
+    align-items: center;
+    text-align: center;
+}
+
+.control__cards a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.bot__item {
+    display: inline;
+}
